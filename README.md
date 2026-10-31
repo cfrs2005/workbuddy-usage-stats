@@ -59,7 +59,7 @@ K = 306.02 积分/(倍率·百万 token)　合计 10,181 积分
 ## 安装
 
 ```bash
-git clone https://github.com/<your-name>/workbuddy-usage-stats.git
+git clone https://github.com/cfrs2005/workbuddy-usage-stats.git
 cp -r workbuddy-usage-stats ~/.workbuddy/skills/wb-usage-stats
 ```
 
