@@ -1,0 +1,343 @@
+{
+  "timezone_offset_hours": 8.0,
+  "trace_count": 142,
+  "model_count": 7,
+  "day_count": 25,
+  "first_day": "2026-10-01",
+  "last_day": "2026-10-31",
+  "total_calls": 2041,
+  "grand_total_tokens": 289096757,
+  "total_input": 287727620,
+  "total_output": 1369137,
+  "total_cached": 282918106,
+  "models": [
+    {
+      "model": "deepseek-v4.1-flash",
+      "traces": 79,
+      "calls": 1494,
+      "active_days": 16,
+      "first": "2026-10-04",
+      "last": "2026-10-31",
+      "input": 232580107,
+      "output": 1098109,
+      "cached": 230609920,
+      "total": 233678216,
+      "share_pct": 80.83,
+      "cache_rate_pct": 99.15,
+      "avg_in_per_call": 155676,
+      "avg_out_per_call": 735
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "traces": 52,
+      "calls": 341,
+      "active_days": 16,
+      "first": "2026-10-01",
+      "last": "2026-10-30",
+      "input": 23713338,
+      "output": 115723,
+      "cached": 21659136,
+      "total": 23829061,
+      "share_pct": 8.24,
+      "cache_rate_pct": 91.34,
+      "avg_in_per_call": 69541,
+      "avg_out_per_call": 339
+    },
+    {
+      "model": "step-5-preview",
+      "traces": 3,
+      "calls": 109,
+      "active_days": 2,
+      "first": "2026-10-21",
+      "last": "2026-10-22",
+      "input": 20980502,
+      "output": 81504,
+      "cached": 20526080,
+      "total": 21062006,
+      "share_pct": 7.29,
+      "cache_rate_pct": 97.83,
+      "avg_in_per_call": 192482,
+      "avg_out_per_call": 748
+    },
+    {
+      "model": "kimi-k3.1-highspeed",
+      "traces": 1,
+      "calls": 43,
+      "active_days": 1,
+      "first": "2026-10-28",
+      "last": "2026-10-28",
+      "input": 4182057,
+      "output": 7408,
+      "cached": 4146010,
+      "total": 4189465,
+      "share_pct": 1.45,
+      "cache_rate_pct": 99.14,
+      "avg_in_per_call": 97257,
+      "avg_out_per_call": 172
+    },
+    {
+      "model": "kimi-k3.1-pro",
+      "traces": 3,
+      "calls": 18,
+      "active_days": 2,
+      "first": "2026-10-25",
+      "last": "2026-10-28",
+      "input": 3362444,
+      "output": 16456,
+      "cached": 3328512,
+      "total": 3378900,
+      "share_pct": 1.17,
+      "cache_rate_pct": 98.99,
+      "avg_in_per_call": 186802,
+      "avg_out_per_call": 914
+    },
+    {
+      "model": "space-bunny",
+      "traces": 3,
+      "calls": 33,
+      "active_days": 1,
+      "first": "2026-10-04",
+      "last": "2026-10-04",
+      "input": 2586100,
+      "output": 47501,
+      "cached": 2418304,
+      "total": 2633601,
+      "share_pct": 0.91,
+      "cache_rate_pct": 93.51,
+      "avg_in_per_call": 78367,
+      "avg_out_per_call": 1439
+    },
+    {
+      "model": "hy4-preview",
+      "traces": 1,
+      "calls": 3,
+      "active_days": 1,
+      "first": "2026-10-04",
+      "last": "2026-10-04",
+      "input": 323072,
+      "output": 2436,
+      "cached": 230144,
+      "total": 325508,
+      "share_pct": 0.11,
+      "cache_rate_pct": 71.24,
+      "avg_in_per_call": 107691,
+      "avg_out_per_call": 812
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-10-01",
+      "calls": 11,
+      "total": 610885,
+      "by_model": {
+        "gpt-6.1-sol": 610885
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "calls": 26,
+      "total": 2617298,
+      "by_model": {
+        "gpt-6.1-sol": 2617298
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "calls": 51,
+      "total": 3755519,
+      "by_model": {
+        "space-bunny": 2633601,
+        "hy4-preview": 325508,
+        "gpt-6.1-sol": 174016,
+        "deepseek-v4.1-flash": 622394
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "calls": 33,
+      "total": 3488754,
+      "by_model": {
+        "deepseek-v4.1-flash": 3488754
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "calls": 4,
+      "total": 382516,
+      "by_model": {
+        "gpt-6.1-sol": 382516
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "calls": 10,
+      "total": 596858,
+      "by_model": {
+        "gpt-6.1-sol": 596858
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "calls": 35,
+      "total": 2260916,
+      "by_model": {
+        "gpt-6.1-sol": 2260916
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "calls": 273,
+      "total": 32928715,
+      "by_model": {
+        "gpt-6.1-sol": 2663309,
+        "deepseek-v4.1-flash": 30265406
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "calls": 512,
+      "total": 78882989,
+      "by_model": {
+        "gpt-6.1-sol": 667535,
+        "deepseek-v4.1-flash": 78215454
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "calls": 76,
+      "total": 4581950,
+      "by_model": {
+        "gpt-6.1-sol": 4581950
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "calls": 39,
+      "total": 4064216,
+      "by_model": {
+        "gpt-6.1-sol": 1524073,
+        "deepseek-v4.1-flash": 2540143
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "calls": 35,
+      "total": 1761988,
+      "by_model": {
+        "gpt-6.1-sol": 1761988
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "calls": 6,
+      "total": 326983,
+      "by_model": {
+        "gpt-6.1-sol": 326983
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "calls": 97,
+      "total": 9508051,
+      "by_model": {
+        "deepseek-v4.1-flash": 9508051
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "calls": 85,
+      "total": 9099998,
+      "by_model": {
+        "deepseek-v4.1-flash": 6485681,
+        "gpt-6.1-sol": 2512171,
+        "step-5-preview": 102146
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "calls": 115,
+      "total": 21338053,
+      "by_model": {
+        "step-5-preview": 20959860,
+        "gpt-6.1-sol": 378193
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "calls": 17,
+      "total": 2964085,
+      "by_model": {
+        "deepseek-v4.1-flash": 2964085
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "calls": 12,
+      "total": 1004634,
+      "by_model": {
+        "deepseek-v4.1-flash": 1004634
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "calls": 94,
+      "total": 15269168,
+      "by_model": {
+        "deepseek-v4.1-flash": 14475025,
+        "kimi-k3.1-pro": 794143
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "calls": 6,
+      "total": 279750,
+      "by_model": {
+        "deepseek-v4.1-flash": 279750
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "calls": 8,
+      "total": 1384920,
+      "by_model": {
+        "deepseek-v4.1-flash": 1384920
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "calls": 151,
+      "total": 23506556,
+      "by_model": {
+        "deepseek-v4.1-flash": 16732334,
+        "kimi-k3.1-highspeed": 4189465,
+        "kimi-k3.1-pro": 2584757
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "calls": 135,
+      "total": 26207943,
+      "by_model": {
+        "gpt-6.1-sol": 2002733,
+        "deepseek-v4.1-flash": 24205210
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "calls": 153,
+      "total": 22837027,
+      "by_model": {
+        "gpt-6.1-sol": 767637,
+        "deepseek-v4.1-flash": 22069390
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "calls": 57,
+      "total": 19436985,
+      "by_model": {
+        "deepseek-v4.1-flash": 19436985
+      }
+    }
+  ]
+}

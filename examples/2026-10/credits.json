@@ -1,0 +1,106 @@
+{
+  "multiplier_source": "/Users/zhangqingyue/.workbuddy/local_storage/entry_d43e96994f944cfb77961c2ea7d04605.info",
+  "models_without_rate": [
+    "gpt-6.1-sol"
+  ],
+  "anchor": {
+    "model": "kimi-k3.1-highspeed",
+    "credits": 2000.0,
+    "k_per_multiplier_per_mtoken": 306.02,
+    "note": "K = 1.0x 倍率下每百万 token 的积分；由单次实测反推，存在抽样误差"
+  },
+  "total_credits": 10181,
+  "models": [
+    {
+      "model": "deepseek-v4.1-flash",
+      "rate": 0.11,
+      "rate_from": null,
+      "night_halved": true,
+      "tokens": 233678216,
+      "tokens_peak": 60913367,
+      "tokens_offpeak": 172764849,
+      "weighted_tokens": 16202537,
+      "share_pct": 48.7,
+      "credits": 4958,
+      "traces": 79
+    },
+    {
+      "model": "step-5-preview",
+      "rate": 0.33,
+      "rate_from": null,
+      "night_halved": false,
+      "tokens": 21062006,
+      "tokens_peak": 20057004,
+      "tokens_offpeak": 1005002,
+      "weighted_tokens": 6950462,
+      "share_pct": 20.89,
+      "credits": 2127,
+      "traces": 3
+    },
+    {
+      "model": "kimi-k3.1-highspeed",
+      "rate": 1.56,
+      "rate_from": "kimi-k3.1-pro-highspeed",
+      "night_halved": false,
+      "tokens": 4189465,
+      "tokens_peak": 0,
+      "tokens_offpeak": 4189465,
+      "weighted_tokens": 6535565,
+      "share_pct": 19.64,
+      "credits": 2000,
+      "traces": 1
+    },
+    {
+      "model": "kimi-k3.1-pro",
+      "rate": 0.97,
+      "rate_from": null,
+      "night_halved": false,
+      "tokens": 3378900,
+      "tokens_peak": 2584757,
+      "tokens_offpeak": 794143,
+      "weighted_tokens": 3277533,
+      "share_pct": 9.85,
+      "credits": 1003,
+      "traces": 3
+    },
+    {
+      "model": "space-bunny",
+      "rate": 0.08,
+      "rate_from": null,
+      "night_halved": false,
+      "tokens": 2633601,
+      "tokens_peak": 0,
+      "tokens_offpeak": 2633601,
+      "weighted_tokens": 210688,
+      "share_pct": 0.63,
+      "credits": 64,
+      "traces": 3
+    },
+    {
+      "model": "hy4-preview",
+      "rate": 0.29,
+      "rate_from": null,
+      "night_halved": false,
+      "tokens": 325508,
+      "tokens_peak": 0,
+      "tokens_offpeak": 325508,
+      "weighted_tokens": 94397,
+      "share_pct": 0.28,
+      "credits": 29,
+      "traces": 1
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "rate": null,
+      "rate_from": null,
+      "night_halved": false,
+      "tokens": 23829061,
+      "tokens_peak": 11973451,
+      "tokens_offpeak": 11855610,
+      "weighted_tokens": 0,
+      "share_pct": 0.0,
+      "credits": 0,
+      "traces": 52
+    }
+  ]
+}

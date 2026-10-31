@@ -1,0 +1,74 @@
+{
+  "_comment": "各模型公开 API 价目，单位 USD / 1M tokens。价格会变，用之前请复核官方页面并更新 verified_at。",
+  "fx_usd_cny": 7.1,
+  "fx_note": "人民币折算仅作参考，按此固定汇率，未计税费与渠道加价",
+  "models": {
+    "deepseek-v4.1-flash": {
+      "cache_hit": 0.003,
+      "cache_miss": 0.15,
+      "output": 0.6,
+      "peak_multiplier": 2.0,
+      "peak_windows_utc": [[1, 4], [6, 10]],
+      "peak_weekdays_only": true,
+      "note": "闲时为高峰的一半；高峰窗口周一至周五 01:00-04:00、06:00-10:00 UTC，周末全闲时",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing",
+      "verified_at": "2026-09-18"
+    },
+    "gpt-6.1-sol": {
+      "cache_hit": 0.1,
+      "cache_miss": 2.0,
+      "output": 10.0,
+      "note": "另有 cache write $2.50/M 未计入；输入超 272K 时整请求按 2x 输入 / 1.5x 输出计费",
+      "source": "https://openrouter.ai/openai/gpt-6.1-sol",
+      "verified_at": "2026-10-30"
+    },
+    "step-5-preview": {
+      "cache_hit": 0.05,
+      "cache_miss": 1.0,
+      "output": 2.7,
+      "note": "海外档（OpenRouter）；国内为 0.7 / 7 / 20 元每百万",
+      "source": "https://therouter.ai/zh/blog/step-5-preview-stepfun-api-integration-routing-guide/",
+      "verified_at": "2026-10"
+    },
+    "kimi-k3.1-pro": {
+      "cache_hit": 0.2,
+      "cache_miss": 2.0,
+      "output": 10.0,
+      "note": "全上下文平价，无长文本溢出档",
+      "source": "https://www.kimi.ai/resources/kimi-k3-1-pro-pricing",
+      "verified_at": "2026-10-24"
+    },
+    "kimi-k3.1-highspeed": {
+      "cache_hit": 0.2,
+      "cache_miss": 4.0,
+      "output": 20.0,
+      "note": "Highspeed 版输入输出为标准版 2 倍，缓存价不变",
+      "source": "https://www.kimi.ai/resources/kimi-k3-1-pro-pricing",
+      "verified_at": "2026-10-24"
+    },
+    "kimi-k3.1-pro-highspeed": {
+      "cache_hit": 0.2,
+      "cache_miss": 4.0,
+      "output": 20.0,
+      "note": "同上，客户端里用的是这个 id",
+      "source": "https://www.kimi.ai/resources/kimi-k3-1-pro-pricing",
+      "verified_at": "2026-10-24"
+    },
+    "hy4-preview": {
+      "cache_hit": 0.042,
+      "cache_miss": 0.834,
+      "output": 2.501,
+      "note": "腾讯混元；国内为 0.3 / 6 / 18 元每百万",
+      "source": "https://openrouter.ai/",
+      "verified_at": "2026-09"
+    },
+    "space-bunny": {
+      "cache_hit": null,
+      "cache_miss": null,
+      "output": null,
+      "note": "无公开 API 定价，成本估算需按同类模型替代或跳过",
+      "source": "",
+      "verified_at": "-"
+    }
+  }
+}
